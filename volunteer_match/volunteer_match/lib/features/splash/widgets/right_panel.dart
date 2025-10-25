@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/constants/color_constants.dart';
+import '../../../core/constants/app_colors.dart';
+
 import 'feature_tile.dart';
 
 class RightPanel extends StatelessWidget {

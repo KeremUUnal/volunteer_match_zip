@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:prologue/core/constants/color_constants.dart';
+
+import '../constants/app_colors.dart';
 
 class AppLogo extends StatelessWidget {
   const AppLogo({super.key, this.size = 42});
   final double size;
-
-  static const Color _onSeed = Colors.white;
 
   @override
   Widget build(BuildContext context) {

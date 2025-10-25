@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:prologue/core/widgets/app_logo.dart';
 
-import '../../../core/constants/color_constants.dart';
+import '../../../core/constants/app_colors.dart';
+
 import '../../../core/widgets/navigationbar/custom_nav_bar.dart';
 import '../../../data/demo_data.dart';
 import '../widgets/achievements_strip.dart';

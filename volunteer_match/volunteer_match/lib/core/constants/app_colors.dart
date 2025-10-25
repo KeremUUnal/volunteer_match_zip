@@ -9,4 +9,6 @@ class AppColors {
   static const Color text = Color(0xFF24323C);
   static const Color darkBg = Color(0xFF111418);
   static const Color white = Colors.white;
+
+  static get primary => null;
 }

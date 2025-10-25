@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:prologue/features/tutorial/pages/tutorial.dart';
 
-import '../../../core/constants/color_constants.dart';
-import '../../../core/navigation/debug_navigate.dart';
+import '../../../core/constants/app_colors.dart';
+
 import '../../../core/widgets/app_logo.dart';
 import '../../../core/widgets/primary_button.dart';
 import '../../home/pages/home_page.dart';
@@ -117,7 +118,12 @@ class SplashPage extends StatelessWidget {
                       backgroundColor: _beige,
                       icon: Icons.apartment_rounded,
                       onPressed: () {
-                        debugNavigate(context, 'organization');
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const TutorialPage(),
+                          ),
+                        );
                       },
                     ),
                   ),
